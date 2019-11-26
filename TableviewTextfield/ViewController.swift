@@ -13,6 +13,7 @@ class ViewController: UIViewController {
    static var arrNew = [String]()
     override func viewDidLoad() {
         super.viewDidLoad()
+        title = "asad"
         // Do any additional setup after loading the view, typically from a nib.
     }
     @IBOutlet weak var textfield: UITextField!
